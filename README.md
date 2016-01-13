@@ -18,3 +18,5 @@ I also added a DS18B20 temperature sensor to the setup, as I already log tempera
 Status changes are published to an MQTT broker. This is hardcoded for now, but will probably be configurable in the future.
 
 I wrote a companion status menu app for OS X to subscribe to the MQTT channel and display system notifications, but you can use any MQTT subscriber system you like.
+
+The OS X app is here: https://github.com/mveinot/LaundryStatus
