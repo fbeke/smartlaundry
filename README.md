@@ -3,7 +3,7 @@
 
 This ESP8266 project uses the Arduino IDE and excellent ESP8266 Arduino libraries to sense the status of standard washers and dryers.
 
-The washer state is determined by sampling a single axis of an accelerometer and calculating the standard deviation on a collection of samples. Even using this message there is a lot of flapping of the state. Some additional debounce is probably needed.
+The washer state is determined by sampling a single axis of an accelerometer and calculating the standard deviation on a collection of samples. Even using this method there is a lot of flapping of the state. Some additional debounce is probably needed.
 
 Determining the dryer state is a bit more invasive - I replaced the dryer buzzer with a relay with a 120V coil. When the buzzer would have sounded, it closes the relay contacts and the ESP8266 reads it like a standard momentary button press.
 
