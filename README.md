@@ -1,5 +1,5 @@
 # smartlaundry
-Get notifications of laundry status from "dumb" laundry machines
+## Get notifications of laundry status from "dumb" laundry machines
 
 This ESP8266 project uses the Arduino IDE and excellent ESP8266 Arduino libraries to sense the status of standard washers and dryers.
 
